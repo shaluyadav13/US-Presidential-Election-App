@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Yadav_USPresidentialElectionApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E05E655A1C7D2CA2000B41EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E05E65711C7D2CA2000B41EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E05E657C1C7D2CA2000B41EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
