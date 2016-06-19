@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E05E655F1C7D2CA2000B41EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E655E1C7D2CA2000B41EC /* AppDelegate.swift */; };
-		E05E65611C7D2CA2000B41EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E65601C7D2CA2000B41EC /* ViewController.swift */; };
+		E05E65611C7D2CA2000B41EC /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E65601C7D2CA2000B41EC /* VotingViewController.swift */; };
 		E05E65641C7D2CA2000B41EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05E65621C7D2CA2000B41EC /* Main.storyboard */; };
 		E05E65671C7D2CA2000B41EC /* Yadav_USPresidentialElectionApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E05E65651C7D2CA2000B41EC /* Yadav_USPresidentialElectionApp.xcdatamodeld */; };
 		E05E65691C7D2CA2000B41EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05E65681C7D2CA2000B41EC /* Assets.xcassets */; };
 		E05E656C1C7D2CA2000B41EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05E656A1C7D2CA2000B41EC /* LaunchScreen.storyboard */; };
 		E05E65771C7D2CA2000B41EC /* Yadav_USPresidentialElectionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E65761C7D2CA2000B41EC /* Yadav_USPresidentialElectionAppTests.swift */; };
 		E05E65821C7D2CA2000B41EC /* Yadav_USPresidentialElectionAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E65811C7D2CA2000B41EC /* Yadav_USPresidentialElectionAppUITests.swift */; };
+		E05E65901C7D2D31000B41EC /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E658F1C7D2D31000B41EC /* Candidate.swift */; };
+		E05E65921C7D2DE9000B41EC /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E65911C7D2DE9000B41EC /* Party.swift */; };
+		E05E65941C7D4218000B41EC /* PollFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05E65931C7D4218000B41EC /* PollFactory.swift */; };
+		E05E65961C7D4560000B41EC /* clinton-2016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E05E65951C7D4560000B41EC /* clinton-2016.jpg */; };
+		E05E65981C7D4625000B41EC /* berniesanders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E05E65971C7D4625000B41EC /* berniesanders.jpg */; };
+		E05E659A1C7D477A000B41EC /* bencarson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E05E65991C7D477A000B41EC /* bencarson.jpg */; };
+		E05E659C1C7D47CA000B41EC /* TedCruz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E05E659B1C7D47CA000B41EC /* TedCruz.jpg */; };
+		E05E659E1C7D4820000B41EC /* Kasich16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E05E659D1C7D4820000B41EC /* Kasich16.jpg */; };
+		E05E65A01C7D48C1000B41EC /* trump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E05E659F1C7D48C1000B41EC /* trump.jpg */; };
+		E05E65A21C7D490B000B41EC /* MarcoRubio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E05E65A11C7D490B000B41EC /* MarcoRubio.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +47,7 @@
 /* Begin PBXFileReference section */
 		E05E655B1C7D2CA2000B41EC /* Yadav_USPresidentialElectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yadav_USPresidentialElectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05E655E1C7D2CA2000B41EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E05E65601C7D2CA2000B41EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E05E65601C7D2CA2000B41EC /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
 		E05E65631C7D2CA2000B41EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E05E65661C7D2CA2000B41EC /* Yadav_USPresidentialElectionApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yadav_USPresidentialElectionApp.xcdatamodel; sourceTree = "<group>"; };
 		E05E65681C7D2CA2000B41EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +59,16 @@
 		E05E657D1C7D2CA2000B41EC /* Yadav_USPresidentialElectionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yadav_USPresidentialElectionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05E65811C7D2CA2000B41EC /* Yadav_USPresidentialElectionAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yadav_USPresidentialElectionAppUITests.swift; sourceTree = "<group>"; };
 		E05E65831C7D2CA2000B41EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05E658F1C7D2D31000B41EC /* Candidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
+		E05E65911C7D2DE9000B41EC /* Party.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		E05E65931C7D4218000B41EC /* PollFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollFactory.swift; sourceTree = "<group>"; };
+		E05E65951C7D4560000B41EC /* clinton-2016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "clinton-2016.jpg"; sourceTree = "<group>"; };
+		E05E65971C7D4625000B41EC /* berniesanders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berniesanders.jpg; sourceTree = "<group>"; };
+		E05E65991C7D477A000B41EC /* bencarson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bencarson.jpg; sourceTree = "<group>"; };
+		E05E659B1C7D47CA000B41EC /* TedCruz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TedCruz.jpg; sourceTree = "<group>"; };
+		E05E659D1C7D4820000B41EC /* Kasich16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kasich16.jpg; sourceTree = "<group>"; };
+		E05E659F1C7D48C1000B41EC /* trump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trump.jpg; sourceTree = "<group>"; };
+		E05E65A11C7D490B000B41EC /* MarcoRubio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarcoRubio.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +120,22 @@
 			isa = PBXGroup;
 			children = (
 				E05E655E1C7D2CA2000B41EC /* AppDelegate.swift */,
-				E05E65601C7D2CA2000B41EC /* ViewController.swift */,
+				E05E65601C7D2CA2000B41EC /* VotingViewController.swift */,
 				E05E65621C7D2CA2000B41EC /* Main.storyboard */,
 				E05E65681C7D2CA2000B41EC /* Assets.xcassets */,
 				E05E656A1C7D2CA2000B41EC /* LaunchScreen.storyboard */,
 				E05E656D1C7D2CA2000B41EC /* Info.plist */,
 				E05E65651C7D2CA2000B41EC /* Yadav_USPresidentialElectionApp.xcdatamodeld */,
+				E05E658F1C7D2D31000B41EC /* Candidate.swift */,
+				E05E65A11C7D490B000B41EC /* MarcoRubio.jpg */,
+				E05E659D1C7D4820000B41EC /* Kasich16.jpg */,
+				E05E65991C7D477A000B41EC /* bencarson.jpg */,
+				E05E659F1C7D48C1000B41EC /* trump.jpg */,
+				E05E65911C7D2DE9000B41EC /* Party.swift */,
+				E05E65971C7D4625000B41EC /* berniesanders.jpg */,
+				E05E659B1C7D47CA000B41EC /* TedCruz.jpg */,
+				E05E65951C7D4560000B41EC /* clinton-2016.jpg */,
+				E05E65931C7D4218000B41EC /* PollFactory.swift */,
 			);
 			path = Yadav_USPresidentialElectionApp;
 			sourceTree = "<group>";
@@ -232,9 +262,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05E65981C7D4625000B41EC /* berniesanders.jpg in Resources */,
+				E05E659A1C7D477A000B41EC /* bencarson.jpg in Resources */,
+				E05E65961C7D4560000B41EC /* clinton-2016.jpg in Resources */,
 				E05E656C1C7D2CA2000B41EC /* LaunchScreen.storyboard in Resources */,
 				E05E65691C7D2CA2000B41EC /* Assets.xcassets in Resources */,
+				E05E659E1C7D4820000B41EC /* Kasich16.jpg in Resources */,
+				E05E659C1C7D47CA000B41EC /* TedCruz.jpg in Resources */,
 				E05E65641C7D2CA2000B41EC /* Main.storyboard in Resources */,
+				E05E65A21C7D490B000B41EC /* MarcoRubio.jpg in Resources */,
+				E05E65A01C7D48C1000B41EC /* trump.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05E65671C7D2CA2000B41EC /* Yadav_USPresidentialElectionApp.xcdatamodeld in Sources */,
-				E05E65611C7D2CA2000B41EC /* ViewController.swift in Sources */,
+				E05E65921C7D2DE9000B41EC /* Party.swift in Sources */,
+				E05E65611C7D2CA2000B41EC /* VotingViewController.swift in Sources */,
 				E05E655F1C7D2CA2000B41EC /* AppDelegate.swift in Sources */,
+				E05E65901C7D2D31000B41EC /* Candidate.swift in Sources */,
+				E05E65941C7D4218000B41EC /* PollFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
